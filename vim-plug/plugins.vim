@@ -8,11 +8,15 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-" Themes
+" ============== Themes ==============
     Plug 'joshdick/onedark.vim'
     Plug 'NLKNguyen/papercolor-theme'
 
-" LSP and Completion
+" =========== Vim-Airline ============
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+
+" ======== LSP and Completion ========
     Plug 'neovim/nvim-lspconfig'
     Plug 'hrsh7th/nvim-cmp'
     Plug 'hrsh7th/cmp-nvim-lsp'
