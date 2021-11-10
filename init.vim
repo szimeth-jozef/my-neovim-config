@@ -3,10 +3,6 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
 lua require "init"
 
 
-" TODO: move lsp config somewhere else
-lua require "lspconfig".ccls.setup{}
-
-
 " ================ Vim Scripts ================
 source $HOME/.config/nvim/vimscripts/keymaps.vim
 source $HOME/.config/nvim/vimscripts/airline.vim

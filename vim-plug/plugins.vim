@@ -18,6 +18,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 " ============ LSP and Cmp ===========
     Plug 'neovim/nvim-lspconfig'
+    Plug 'nvim-lua/lsp-status.nvim'
     Plug 'hrsh7th/nvim-cmp'
     Plug 'hrsh7th/cmp-nvim-lsp'
     Plug 'hrsh7th/cmp-buffer'
@@ -26,5 +27,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 " ============ Telescope =============
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim' 
+
+" ========= Git Integration ==========
+    Plug 'TimUntersberger/neogit' 
 
 call plug#end()
