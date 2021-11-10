@@ -39,3 +39,7 @@ vim.g.airline_powerline_fonts = 1
 --vim.cmd("let g:airline_symbols.modified = '[+]'");
 -- vim.cmd("if !exists('g:airline_symbols') let g:airline_symbols = {} endif")
 -- vim.cmd("let g:airline_symbols.modified = ' [+]'")
+
+
+-- =========== Terminal Mode Options ===========
+vim.cmd("autocmd TermOpen * setlocal nonumber norelativenumber")

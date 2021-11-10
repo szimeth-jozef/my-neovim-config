@@ -1,3 +1,3 @@
-require('opts')
 require('binds')
+require('opts')
 require('completion')
